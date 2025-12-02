@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+debug.log
+rag_debug.log
+
+# FAISS Index (можно коммитить или игнорировать)
+# faiss_index/
+
+# Data files (не коммитим большие файлы)
+data/*.pdf
+data/*.docx
+output/*.json
+
+# Temporary files
+*.tmp
+*.temp
+test_*.py
+run_output.txt
+test_output.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PyTorch models cache
+.cache/
+models/
+
+# Hugging Face cache
+.huggingface/
+
